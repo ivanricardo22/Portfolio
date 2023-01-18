@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 * {
 
     margin: 0px;
@@ -6,10 +8,12 @@
 
 body {
 
-    background-color:#d9d9d9
+    background-color:#d9d9d9;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-.foto-ivan {
+.foto-Ivan {
 
     width: 180px;
     height: 150px;
@@ -17,36 +21,52 @@ body {
 }
 .container {
 
-width: 80%;
-margin: 30px auto;
+    width: 80%;
+    margin: 30px auto;
 
 
 }
 .Reader-title {
 
-display: flex;
+    display: flex;
 
 }
 
 .personal-info {
 
-width: 100%;
-text-align:end;
+    width: 100%;
+    text-align:end;
 }
 
 .Menu{
 
-display: flex;
-gap: 50px;
-justify-content: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
 
 }
 
 .Menu > a {
-
-
+    
     text-decoration: none;
     font-weight: bold;
     color:black;
     font-size: 20px;
+}
+
+.Menu > a:hover {
+
+    color:rgb(0,0,255);
+}
+
+.Menu {
+
+    margin-top: 20px;
+}
+
+@media (min-width: 1100px) {
+    .container {
+        width: 50%;
+
+    }
 }
