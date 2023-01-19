@@ -14,3 +14,10 @@
     margin-top: 30px;
 }
 
+.card-professional-experience > div > ul {
+
+    list-style: circle;
+    margin-left: 27px;
+    margin-top: 10px;
+
+}
