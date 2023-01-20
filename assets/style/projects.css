@@ -33,6 +33,23 @@
     display: grid;
     gap: 10px;
 }
+
+.button-link-github {
+
+background-color: aqua;
+padding: 5px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bolder;
+
+
+}
+.action-conteiner {
+
+    text-align-last: center;
+    margin-top: 5px;
+
+}
     
 
 
