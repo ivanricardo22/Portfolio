@@ -1,0 +1,39 @@
+.project-image {
+
+    width: 100%;
+}
+
+.content-project {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.project-tecnologes {
+
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    text-transform: uppercase;
+
+
+}
+
+.project-tecnologes > li {
+
+    background-color: red;
+    padding: 0 5px;
+    height: 15px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.info-project {
+
+    display: grid;
+    gap: 10px;
+}
+    
+
+
+    
